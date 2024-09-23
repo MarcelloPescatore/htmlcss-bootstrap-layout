@@ -20,8 +20,8 @@
 
     <body>
         <header>
-            <div class="container">
-                <div class="row text-center col-12 pt-5 px-0">
+            <div class="container-sm container-md container-lg m-auto d-flex justify-content-center">
+                <div class="row text-center col-12 pt-5 px-0 ">
                     <h1>Bootstrap 5 Responsive Grid</h1>
                     <h4 class="fw-light">Layout a griglia con diversi breakpoint (sm, md, lg).</h4>
                 </div>
@@ -29,4 +29,20 @@
         </header>
         <!-- /header -->
     </body>
+
+    <main>
+        <div class="container-sm container-md container-lg m-auto pt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 bg-light p-4">
+                    <h4>Colonna 1</h4>
+                    <span>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e un terzo su dispositivi grandi</span>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-8 bg-secondary text-white p-4">
+                    <h4>Colonna 2</h4>
+                    <span>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e un terzo su dispositivi grandi</span>
+                </div>
+            </div>
+            <!-- /top row -->
+        </div>
+    </main>
 </html>
